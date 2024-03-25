@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+        <nav id="desktop-nav">
+          <div class="logo">Gokul Nath R</div>
+          <div>
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <nav id="port-nav">
+          <div class="logo">Gokul Nath</div>
+          <div class="port-menu">
+            <div class="port-icon" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="menu-links">
+              <li><a href="#about" onclick="toggleMenu()">About</a></li>
+              <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+              <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+          </div>
+        </nav>
+        <section id="profile">
+          <div class="section__pic-container">
+            <img src="IMG-20240227-WA0009.jpg" alt="Gokul Nath profile picture">
+          </div>
+          <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Gokul Nath</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+                Download CV
+              </button>
+              <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                Contact Info
+              </button>
+            </div>
+            <div id="socials-container">
+              <img src="linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://linkedin.com/'">
+              <img src="github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/'">
+            </div>
+          </div>
+        </section>
+        <section id="about">
+          <p class="section__text__p1">Get To Know More</p>
+          <h1 class="title">About Me</h1>
+
+            <div class="about-details-container">
+              <div class="about-containers">
+                <div class="details-container">
+                  <img src="experience.png" alt="Experience icon" class="icon">
+                  <h3>Course Completion</h3>
+                  <p> java Full Stack Development</p>
+                </div>
+                <div class="details-container">
+                  <img src="education.png" alt="Education icon" class="icon">
+                  <h3>Education</h3>
+                  <p>B.A French</p>
+                </div>
+              </div>
+              <div class="text-container">
+                <p>
+                  Front end designers and programmers are responsibe for developing everything
+                  that users of a sie or app see and interat with.
+                </p>
+              </div>
+            </div>
+          </div>
+          <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+        </section>
+        <section id="experience">
+          <p class="section__text__p1">Explore My</p>
+          <h1 class="title">My Skills</h1>
+          <div class="experience-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <h2 class="experience-sub-title">Frontend Development</h2>
+                <div class="article-container">
+                  <article>
+                    <img src="checkmark.png" alt="Experience icon" class="icon">
+                    <div>
+                      <h3>HTML</h3>
+                      <p></p>
+                    </div>
+                  </article>
+                  <article>
+                    <img src="checkmark.png" alt="Experience icon" class="icon">
+                    <div>
+                      <h3>CSS</h3>
+                      
+                    </div>
+                  </article>
+                  <article>
+                    <img src="checkmark.png" alt="Experience icon" class="icon">
+                    <div>
+                      <h3>JavaScript</h3>
+                      
+                    </div>
+                  </article>
+                 
+                  <article>
+                    <img src="checkmark.png" alt="Experience icon" class="icon">
+                    <div>
+                      <h3>React.js</h3>
+                      
+                    </div>
+                  </article>
+                  
+                </div>
+              </div>
+              <div class="details-container">
+                <h2 class="experience-sub-title">Full Stack Development</h2>
+                <div class="article-container">
+                  <article>
+                    <img src="checkmark.png" alt="Experience icon" class="icon">
+                    <div>
+                      <h3>Java </h3>
+                      
+                    </div>
+                    <article>
+                      <img src="checkmark.png" alt="Experience icon" class="icon">
+                      <div>
+                        <h3>MYSQL</h3>
+                        
+                      </div>
+                    </article>
+                  </article>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+        </section>
+        <section id="projects">
+          
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img src="project-2.png" alt="Project 2" class="project-img">
+                </div>
+
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                    Github
+                  </button>
+                </div>
+          <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+        </section>
+        <section id="contact">
+          <p class="section__text__p1">Get in Touch</p>
+          <h1 class="title">Contact Me</h1>
+          <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+              <img src="email.png" alt="Email icon" class="icon contact-icon email-icon">
+              <p><a href="mailto:examplemail@gmail.com">Gokul271019@gmail.com</a></p>
+            </div>
+
+            <div class="contact-info-container">
+              <img src="linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+              <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <nav>
+            <div class="nav-links-container">
+              <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+
+          <p>Copyright © 2023 Gokul Nath. All Rights Reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+      
+    
+    </body>
+    
+</body>
+</html>
